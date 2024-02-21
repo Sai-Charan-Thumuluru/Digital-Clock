@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#digi {
+    translate: 300px;
+}
+
+.s, .s1, .s2, .s3, .s4, .s5 {
+    height: 20px;
+    width: 100px;
+    background-color: rgb(88, 1, 1);
+    border-radius: 10px;
+    position: absolute;
+}
+
+#hru {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+#hrt {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 180px;
+}
+
+#hs1 {
+    top: 100px;
+    left: 70px;
+}
+
+#hs2 {
+    top: 105px;
+    left: 180px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+}
+
+#hs3 {
+    top: 210px;
+    left: 180px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+}
+
+#hs4 {
+    top: 315px;
+    left: 70px;
+}
+
+#hs5 {
+    top: 210px;
+    left: 60px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+}
+
+#hs6 {
+    top: 105px;
+    left: 60px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+}
+
+#hs7 {
+    top: 205px;
+    left: 70px;
+}
+
+#minu {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+#mint {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 180px;
+}
+
+
+#ms1 {
+    top: 100px;
+    left: 70px;
+    translate: 400px;
+}
+
+#ms2 {
+    top: 105px;
+    left: 180px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    translate: 400px;
+}
+
+#ms3 {
+    top: 210px;
+    left: 180px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    translate: 400px;
+}
+
+#ms4 {
+    top: 315px;
+    left: 70px;
+    translate: 400px;
+}
+
+#ms5 {
+    top: 210px;
+    left: 60px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    translate: 400px;
+}
+
+#ms6 {
+    top: 105px;
+    left: 60px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    translate: 400px;
+}
+
+#ms7 {
+    top: 205px;
+    left: 70px;
+    translate: 400px;
+}
+
+#secu {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+#sect {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 180px;
+}
+
+
+
+#ss1 {
+    top: 100px;
+    left: 70px;
+    translate: 800px;
+}
+
+#ss2 {
+    top: 105px;
+    left: 180px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    translate: 800px;
+}
+
+#ss3 {
+    top: 210px;
+    left: 180px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    translate: 800px;
+}
+
+#ss4 {
+    top: 315px;
+    left: 70px;
+    translate: 800px;
+}
+
+#ss5 {
+    top: 210px;
+    left: 60px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    translate: 800px;
+}
+
+#ss6 {
+    top: 105px;
+    left: 60px;
+    width: 100px;
+    transform-origin: left;
+    transform: rotate(90deg);
+    translate: 800px;
+}
+
+#ss7 {
+    top: 205px;
+    left: 70px;
+    translate: 800px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(36, 204, 68);
+    border-radius: 50%;
+    position: absolute;
+    animation: blink 1s infinite;
+}
+
+#dot1 {
+    top: 150px;
+    left: 410px;
+}
+
+#dot2 {
+    top: 250px;
+    left: 410px;
+}
+
+#dot3 {
+    top: 150px;
+    left: 810px;
+}
+
+#dot4 {
+    top: 250px;
+    left: 810px;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
